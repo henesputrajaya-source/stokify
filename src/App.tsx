@@ -7,6 +7,7 @@ const Dashboard = lazy(() => import("./pages/Dashboard"));
 const Barang = lazy(() => import("./pages/Barang"));
 const Transaksi = lazy(() => import("./pages/Transaksi"));
 const Laporan = lazy(() => import("./pages/Laporan"));
+const Pengguna = lazy(() => import("./pages/Pengguna"));
 const Pengaturan = lazy(() => import("./pages/Pengaturan"));
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="barang" element={<Barang />} />
         <Route path="transaksi" element={<Transaksi />} />
         <Route path="laporan" element={<Laporan />} />
+        <Route path="pengguna" element={<Pengguna />} />
         <Route path="pengaturan" element={<Pengaturan />} />
       </Route>
     </Routes>

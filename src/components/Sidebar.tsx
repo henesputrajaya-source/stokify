@@ -4,6 +4,7 @@ import {
   Package,
   ArrowLeftRight,
   FileText,
+  Users,
   Settings,
   Moon,
   BarChart3,
@@ -16,6 +17,7 @@ const menu = [
   { label: "Barang", to: "/barang", icon: Package },
   { label: "Transaksi", to: "/transaksi", icon: ArrowLeftRight, arrow: true },
   { label: "Laporan", to: "/laporan", icon: FileText },
+  { label: "Pengguna", to: "/pengguna", icon: Users },
   { label: "Pengaturan", to: "/pengaturan", icon: Settings },
 ];
 
